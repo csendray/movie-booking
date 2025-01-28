@@ -1,0 +1,54 @@
+.upcoming-movies-heading {
+  text-align: center;
+  background: #ff9999;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.grid-list-upcoming-movies {
+  flex-wrap: nowrap;
+  transform: translateZ(0);
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+  padding: 16px;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+}
+.container {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.right-section {
+  width: 300px; /* Adjust width as necessary */
+  position: sticky;
+  top: 80px; /* Adjust top to account for header height */
+}
+
+.upcoming-movies-heading,
+.released-movies-heading {
+  margin-top: 20px;
+}
+
+.released-movies-section {
+  margin-top: 40px;
+}
