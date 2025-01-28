@@ -2,7 +2,7 @@
 
 A full-stack **Movie Booking System** built with **React (Frontend) + Node.js/Express (Backend) + MongoDB (Database)**. This application allows users to browse movies, book tickets, and manage their reservations.
 
-✅ 1. Features Implementation (80%)
+✅ 1. Features Implementation
 1.1 Required Node Modules
 All required dependencies are installed and configured correctly in package.json:
 
@@ -59,7 +59,7 @@ The following routes are correctly mapped to controllers:
 /auth/bookings POST bookShow ✅ Implemented
 /auth/coupons GET getCouponCode ✅ Implemented
 
-# ✅ 2. Adherence to Coding Guidelines (20%)
+# ✅ 2. Adherence to Coding Guidelines
 
 2.1 Code Formatting
 ✅ Google Coding Guidelines are followed.
@@ -69,6 +69,8 @@ The following routes are correctly mapped to controllers:
 ✅ camelCase naming convention is used for variables and functions.
 ✅ Variable names are descriptive and represent their functionality.
 ✅ Code is well-commented, explaining complex logic.
+
+###########################################################################################################
 
 1️⃣ User Sign-Up
 🔹 Endpoint: POST /api/auth/signup
@@ -91,6 +93,8 @@ The following routes are correctly mapped to controllers:
 {
 "message": "User already exists"
 }
+
+###########################################################################################################
 2️⃣ User Login
 🔹 Endpoint: POST /api/auth/login
 🔹 Headers: Content-Type: application/json
@@ -106,4 +110,4 @@ Success Response (200 OK)
 "id": "6798cca4409b1c3899b28c3e",
 "access-token": "eyJhbGciOiJIUzI1NiIsIn..."
 }
-# movie-booking
+############################################################################################################
